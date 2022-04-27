@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import './App.css';
 import Components from './Component/helloWorld';
 import Kathir from './Component/Hello';
-
+import Popup from './Component/pop';
+import Stricky from './Component/strickybutton';
 
 class Akk extends Component
 {
@@ -11,8 +12,10 @@ class Akk extends Component
   return (
     <div ClassName="App">
       <div id="ice">
-      <Components/>
       <Kathir/>
+      <Components/>
+      <Popup/>
+      <Stricky/>
       </div>
     </div>
   );
